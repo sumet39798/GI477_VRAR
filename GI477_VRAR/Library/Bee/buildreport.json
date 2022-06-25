@@ -1,0 +1,20 @@
+{
+"instructions_readme": "1) Open Chrome, 2) go to chrome://tracing, 3) click Load, 4) navigate to this file.",
+
+"traceEvents":[
+{ "pid": "Unity", "ph":"M", "name": "process_name", "args": {"name": "Unity"} },
+{ "pid": "Unity", "ph":"M", "name": "process_sort_index", "args": {"sort_index": -100} },
+{ "pid": "Unity", "tid": 1, "ph":"M", "name": "thread_name", "args": {"name": ""} },
+{ "pid": "Unity", "tid": 1,"ts": 1910416677.9,"dur": 3895372.5, "ph":"X", "name": "Build player"},
+{ "pid": "Unity", "tid": 1,"ts": 1910458503.8,"dur": 320673.7, "ph":"X", "name": "Preprocess Player"},
+{ "pid": "Unity", "tid": 1,"ts": 1910885176,"dur": 3373482.7, "ph":"X", "name": "Prepare For Build"},
+{}
+
+],
+"meta_datetime": "06/25/2022 16:40:53",
+"meta_command_line": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.5f1\\Editor\\Unity.exe\" -projectpath C:\\Users\\Administrator\\Desktop\\GI477_VRAR.git\\GI477_VRAR -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-Administrator -hubSessionId 91ec0b50-f466-11ec-9529-7d3cb05a80ef -accessToken qq2lktVs6mmib1w00lUFn2hglZ8AJiSPyV3ruxoCBcQ011f",
+"meta_command_line_args": "C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.5f1\\Editor\\Unity.exe -projectpath C:\\Users\\Administrator\\Desktop\\GI477_VRAR.git\\GI477_VRAR -useHub -hubIPC -cloudEnvironment production -licensingIpc LicenseClient-Administrator -hubSessionId 91ec0b50-f466-11ec-9529-7d3cb05a80ef -accessToken qq2lktVs6mmib1w00lUFn2hglZ8AJiSPyV3ruxoCBcQ011f",
+"meta_user_name": "Administrator",
+"meta_os_version": "Microsoft Windows NT 10.0.19043.0",
+"meta_cpu_count": "12"
+}
